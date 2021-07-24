@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&display=swap');
+
+
+
+
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 10px;
+
+    
+}
+
+/*@media only screen and (max-width: 75em){
+   html{
+        font-size: 8px;
+   }
+}*/
+
+body{
+   box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('roboto-black-webfont.woff2') format('woff2'),
+         url('roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'typographicaregular';
+    src: url('typographica-webfont.woff2') format('woff2'),
+         url('typographica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url('roboto-blackitalic-webfont.woff2') format('woff2'),
+         url('roboto-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.woff2') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+.logo{
+    
+    width: 100vw;
+    height: 7.9rem;
+    background-color: #C2B092;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+
+ 
+
+
+ 
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px){
+   
+     
+    .image-2{
+        background-color: #C2B092;
+        opacity: 0.9;
+        height: 55rem;
+        width: 35rem;
+        display: absolute;
+        top: -19rem;
+        left: 4rem;
+        z-index: -1;
+    }
+
+    html{
+        font-size: 8px;
+    }
+
+    .logo__img{
+        margin-top: -2rem !important;
+    }
+    .logo__heading{
+        margin-top: -2rem;
+    }
+
+    .logo__subheading{
+        margin-top: -2rem;
+    }
+
+    p{
+        font-size: 1.9rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+   
+    
+
+    html{
+        font-size: 7px;
+    }
+
+    .logo__img{
+        margin-top: -2rem;
+    }
+
+    .logo__heading{
+        margin-top: -4.5rem;
+    }
+
+    .logo__subheading{
+        margin-top: -4.5rem;
+    }
+
+    p{
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (min-width: 2560px){
+   
+    
+
+    html{
+        font-size: 10px;
+        margin-left: 5rem;
+    }
+ .logo__img{
+     margin-top: -10rem;
+ }
+   
+}
+
+@media only screen and (max-width: 450px) and (min-width: 320px){
+  html{
+      font-size: 6px;
+     
+  }
+    body,html{
+        overflow-x: hidden;
+    }
+  .section__content{
+      display: flex;
+      flex-direction: column;
+     
+  }
+   .section__content-img{
+       margin-top: -1rem;
+       position: relative !important;
+   }
+  
+
+  .image-1{
+      margin-left: 10rem;
+      width: 65vw !important;
+      height: 35rem !important;
+      position: absolute;
+      bottom: -1rem !important;
+      left: -9rem !important;
+  }
+
+  .image-2{
+      width: 40rem !important;
+      height: 40rem !important; 
+  }
+
+  
+
+  .logo{
+      width: 100vw !important;
+      height: 20rem;
+      display: relative;
+      margin-bottom: 4rem;
+  }
+
+  .logo__img{
+     margin-top:3px !important;
+  }
+
+  .logo__heading{
+      margin-top: -5.5rem !important;
+     
+  }
+
+  .logo__subheading{
+      display: flex;
+      margin-top: 10rem !important;
+      justify-content: space-between;
+     margin-left: -50rem;
+     padding-right: 2rem;
+  }
+
+  a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .section__content-story{
+      text-align: center;
+  }
+
+  
+  .cards-1{
+      
+   
+    margin-left: 11rem !important;
+    margin-top: 4rem !important;
+    
+  }
+}
+
+.logo__img{
+   margin-top: -2rem;
+    margin-right: 3rem;
+    max-width: 100%;
+    height: 14rem;
+}
+
+.logo__heading{
+    justify-self: center;
+    align-self: center;
+    font-family: "roboto", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 2rem;
+}
+
+.logo__subheading{
+    margin-top: 2rem;
+    justify-self: center;
+    align-self: center;
+    margin-right: 5rem;
+}
+   
+
+
+
+a{
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: auto 2rem;
+    margin-right: 3rem;
+    color: white;
+    font-weight: 90;
+    font-size: 1.5rem;
+
+}
+
+section{
+    display: grid;
+    width: 100vw;
+    grid-template-rows: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  
+}
+
+
+.heading{
+    font-family: 'roboto', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 4rem;
+    font-size: 5rem;
+    color: teal;
+    font-weight: 900;
+    line-height: 0.9;
+}
+
+.paragraph-1{
+    font-family: 'roboto', sans-serif;
+    padding-bottom: 4rem;
+    display: inline-block;
+    color: #402218;
+    opacity: 0.8;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.section-paragraph{
+    width: 45rem;
+    height: 4rem;
+    background-color: #C2B092;
+    opacity: 1;
+    z-index: -1;
+    font-family: 'roboto', sans-serif;
+  
+}
+
+.paragraph-2{
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    padding-top: .7rem;
+    font-size: 1.8rem;
+    color: whitesmoke;
+    
+    
+    
+}
+
+.section__content-img{
+    position: relative;
+
+    
+}
+
+.image-1{
+    height: 39rem;
+    width: 25vw;
+    border: solid white 0.75rem;
+    display: absolute;
+    top: 28rem;
+   
+}
+
+.image-2{
+    background-color: #C2B092;
+    opacity: 0.9;
+    height: 55rem;
+    width: 45rem;
+    display: absolute;
+    top: -19rem;
+    left: 4rem;
+    z-index: -1;
+}
+
+.section__rows{
+    background-color: #C2B092;
+    z-index: 30;
+    display: flex;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: end;
+}
+
+.col-1-of-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30vw;
+}
+
+.image__circle-white{
+    height: 22rem;
+    width: 22rem;
+    background-color: white;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+   
+    
+    
+    z-index: 40;
+  }
+
+  .image__circle{
+    height: 21rem;
+    width: 21rem;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    
+    z-index: 30;
+  }
+
+  .image-primary{
+    height: 100%;
+    
+ }
+
+ .heading-secondary{
+     font-family: 'roboto', sans-serif;
+     color: white;
+     font-size: 3.5rem;
+     margin: 3rem 0;
+     padding-bottom: 5rem;
+     text-transform: uppercase;
+     font-weight: 500;
+ }
+
+ p{
+     text-align: center;
+     font-family: 'roboto', sans-serif;
+     margin-bottom: 6.5rem;
+     color: white;
+     font-size: 1.5rem;
+     
+ }
+
+ .paragraph-3{
+     font-size: 2.8rem;
+     font-weight: 500;
+     
+ }
+
+ .image__circle-white{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: -12rem;
+     margin-bottom: 8rem;
+ }
+
+ .margin{
+     margin-bottom: -18.5rem;
+     display: grid;
+     grid-template-rows: 40vh;
+     grid-template-columns: repeat(3, 1fr);
+     width: 91vw;
+     
+ }
+
+ .section__details-a{
+    background-color: teal;
+    height: 21rem;
+    width: 21rem;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    
+ }
+
+ 
+ .cards{
+     width: 100vw;
+     background-image: url(manik.jpg);
+     background-size: contain;
+ }
+
+ .cards-1{
+    width: 30rem;
+    height: 40rem;
+    border-radius: 10%;
+    background-color: white;
+    text-align: center;
+    margin-top: 30rem; 
+ }
+
+ .card-heading{
+     color: #402218;
+     font-weight: 900;
+     font-family: "roboto", sans-serif;
+     font-size: 3rem;
+     text-transform: uppercase;
+     line-height: 1;
+     margin: 6rem auto;
+ }
+
+ .card-para{
+     color: #C2B092;
+     font-weight: 500;
+     font-size: 1.7rem;
+ }
+ 
+ 
+    
+
+ 
+
+
