@@ -56,23 +56,27 @@
                      <img src="reader.jpg" alt="reader" class="image-primary">
                    </div>
                 </div>
-                <h2 class="heading-secondary">LIFE ANALYSIS</h2>
-                <p>Life is Beautiful. How about <br>knowing things before they<br> happen so that we can act <br>accordingly.
+                <div class="dog">
+                <h2 class="heading-secondary">LIFE&nbsp;ANALYSIS</h2>
+                <p class="paa">Life is Beautiful. How about <br>knowing things before they<br> happen so that we can act <br>accordingly.
                     <br>We do the analysis of a<br> person with the help of <br>ASTROLOGY,NUMEROLOGY,<br>TAROT CARD & ANGEL<br> CARD.
                 </p>
-               
+                </div>
             </div>
+            <div class="cat">
             <div class="col-1-of-3">
                 <div class="image__circle-white">
                     <div class="image__circle">
                       <img src="healer.jpg" alt="healer" class="image-primary">
                     </div>
                 </div>
-                <h2 class="heading-secondary">spiritual healer</h2>
-                <p>Healing is a traditional art<br> that restores the balance & flow of<br> energy throughout the body, mind &<br> soul. This technique works directly<br> with the physical, emotional &<br> spiritual aspects of well being.<br> It is used to treat various medical<br> conditions.
+                <div class="dog">
+                <h2 class="heading-secondary">spiritual&nbsp;healer</h2>
+                <p class="paa">Healing is a traditional art<br> that restores the balance & flow of<br> energy throughout the body, mind &<br> soul. This technique works directly<br> with the physical, emotional &<br> spiritual aspects of well being.<br> It is used to treat various medical<br> conditions.
                     <br>We heal through Energy, Reiki, <br>Angels & Natural Crystals.
                 </p>
-                
+                </div>
+            </div>
             </div>
             <div class="col-1-of-3">
                 <div class="image__circle-white">
@@ -80,11 +84,12 @@
                        <img src="therapist.jpg" alt="therapist" class="image-primary">
                     </div>
                 </div>
-                <h2 class="heading-secondary">acu therapist</h2>
-                <p>Acupressure is an ancient <br>therapy in which you put<br> pressure on specific areas of<br> your body to release muscle <br>tension & promote blood<br> circulation.
+                <div class="dog">
+                <h2 class="heading-secondary">acu&nbsp;therapist</h2>
+                <p class="paa">Acupressure is an ancient <br>therapy in which you put<br> pressure on specific areas of<br> your body to release muscle <br>tension & promote blood<br> circulation.
                     <br>We use REFLEXOLOGY,<br>STEAMING,AYURVEDA<br> TECHNIQUES & OTHER <br>NATURAL PROCESSES for<br> curing your Physical Health. 
                 </p>
-                
+                </div>
             </div>
         </div>
 
@@ -140,6 +145,23 @@
             <p class="card-para">From family to career<br>to relationships,<br>I customize the tools<br>& techniques by which<br>you can take charge<br>of your life & expand<br>your potential</p>
         </div>
     </section>
+
+    <div class="form">
+        <form class="search" name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            Name: <input type="text" name="fname">
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+
+    <script>
+        function validateForm() {
+          let x = document.forms["myForm"]["fname"].value;
+          if (x == "") {
+            alert("Name must be filled out");
+            return false;
+          }
+        }
+    </script>
     
 
 
